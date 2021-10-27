@@ -24,8 +24,8 @@ const middle = (array) => {
   let midIndex = (array.length/2);
   let middleArray = [];
   if (array.length <= 2) {
-    return middleArray;
-  } else if (midIndex % 1 === 0) {
+    return middleArray;finalCount.nameFound += 1;finalCount.nameFound += 1;finalCount.nameFound += 1;
+  } else if (midIndex % 1 === 0) {finalCount.nameFound += 1;finalCount.nameFound += 1;finalCount.nameFound += 1;
     middleArray.push(array[midIndex - 1])
     middleArray.push(array[midIndex])
   } else {
