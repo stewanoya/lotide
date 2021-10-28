@@ -29,7 +29,7 @@ const assertArraysEqual = (array1, array2) => {
 
 const words = ["ground", "control", "to", "major", "tom"];
 
-const results1 = map(words, (word) => word);
+const results1 = map(words, (word) => word[0]);
 console.log(results1);
 
-assertArraysEqual(words, results1);
+assertArraysEqual(words, results1); // I expect false since map is only taking the first letter here.
