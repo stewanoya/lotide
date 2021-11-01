@@ -11,3 +11,5 @@ const middle = (array) => {
   }
   return middleArray;
 };
+
+module.exports = middle;
