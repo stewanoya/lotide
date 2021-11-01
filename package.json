@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@stewanoya/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A micro-replica of the lodash project for learning purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "tests"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/stewanoya/lotide.git"
   },
-  "author": "",
+  "author": "Stew Anoya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stewanoya/lotide/issues"
