@@ -1,6 +1,6 @@
-const assertEqual = function(actual, expected) {
+const assertEqual = function (actual, expected) {
   const pass = "✅✅✅ Assertation Passed: ";
-  const fail =  "🛑🛑🛑 Assertation Failed: ";
+  const fail = "🛑🛑🛑 Assertation Failed: ";
   if (actual !== expected) {
     console.log(`${fail} ${actual} !== ${expected}.`);
   } else {
@@ -16,5 +16,4 @@ const tail = (array) => {
   return arrayNew;
 };
 
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result[1], "Labs");
+module.exports = tail;
